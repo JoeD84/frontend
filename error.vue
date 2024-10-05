@@ -1,5 +1,6 @@
 <template>
-    <NuxtLayout name="error-layout">
+    <NuxtLayout name="empty">
+      <main class="container-fluid pb-container mt-main grid gap-container grid-cols-1 ">
         <section class="bg-secondary card style-card grid gap-card-sm container">
           
             <div title="404" class="error-code text-accent ">{{ error?.statusCode }}</div>
@@ -10,6 +11,7 @@
                 Go Home
             </InputBtn>
         </section>
+      </main>
     </NuxtLayout>    
 </template>
   
