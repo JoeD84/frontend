@@ -1,5 +1,5 @@
 <template>
-    <NuxtLayout name="empty">
+    <NuxtLayout name="default">
       <main class="container-fluid pb-container mt-main grid gap-container grid-cols-1 ">
         <section class="bg-secondary card style-card grid gap-card-sm container">
           
