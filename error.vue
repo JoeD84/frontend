@@ -3,9 +3,9 @@
       <main class="container-fluid pb-container mt-main grid gap-container grid-cols-1 ">
         <section class="bg-secondary card style-card grid gap-card-sm container">
           
-            <div title="404" class="error-code text-accent ">{{ error?.statusCode }}</div>
+            <div :title="error?.statusCode.toString()" class="error-code text-accent ">{{ error?.statusCode }}</div>
 
-            <h1 class="error-message">{{ error?.message }}</h1>
+            <h1 class="error-message" style="word-break: break-word">{{ error?.message }}</h1>
 
             <InputBtn class="w-full" @click="navigateTo('/')">
                 Go Home
